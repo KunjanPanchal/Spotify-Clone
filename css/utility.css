@@ -1,0 +1,28 @@
+.border{
+    border: 2px solid red;
+    margin: 3px;
+}
+.flex{
+    display: flex;
+}
+.justify-content{
+    justify-content: center;
+}
+.item-center{
+    align-items: center;
+}
+.bg-grey{
+    background-color: #121212;
+}
+.radius{
+    border-radius: 12px;
+}
+.m1{
+    margin: 8px;
+}
+.p1{
+    padding: 20px;
+}
+.invert{
+    filter: invert(1);
+}

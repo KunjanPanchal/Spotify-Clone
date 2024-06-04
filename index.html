@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+
+
+        <div class="left">
+            <div class="home bg-grey radius m1 p1">
+                <img src="images/close.svg" class="close" alt="">
+                <div class="logo"><img src="images/logo.svg" alt="" class="icon"></div>
+                <ul>
+                    <li class="flex"><img src="images/home.svg" alt="home" class="icon "><span>Home</span></li>
+                    <li class="flex"><img src="images/search.svg" alt="search" class="icon "><span>Search</span></li>
+                </ul>
+            </div>
+            <div class="library bg-grey radius m1 p1">
+                <div class="playlist flex">
+                    <div class="heading flex">
+                        <img src="images/library.svg" class="icon" alt="heading">
+                        <h3>Your Library</h3>
+                    </div>
+                    <div class="plus"><img src="images/plus.svg" alt="plus" class="icon"></div>
+                </div>
+
+                <!-- <div class="crtPlay radius p1">
+                    <h4>Create your first playlist</h4>
+                    <p>Its easy, well help you</p><button class="btn">Create playlist</button>
+                </div>
+                <div class="crtPlay radius p1">
+                    <h4>Create your first playlist</h4>
+                    <p>Its easy, well help you</p><button class="btn">Create playlist</button>
+                </div> -->
+                <div class="songList">
+                    <ul>
+
+                    </ul>
+                </div>
+                <div class="footer ">
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/" data-encore-id="textLink">
+                            <span data-encore-id="type">Legal</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/safetyandprivacy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Safety &amp; Privacy Center</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Privacy Policy</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/cookies-policy/" data-encore-id="textLink">
+                            <span data-encore-id="type">Cookies</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3" data-encore-id="textLink">
+                            <span data-encore-id="type">About Ads</span>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.spotify.com/in-en/accessibility/" data-encore-id="textLink">
+                            <span data-encore-id="type">Accessibility</span>
+                        </a>
+
+                    </div>
+                    <div><a draggable="false" href="https://www.spotify.com/legal/cookies-policy/" target="_blank"
+                            rel="noopener">
+                            <span data-encore-id="text">Cookies</span>
+                        </a></div>
+                    <button class="btn"><img src="images/english.svg" alt="" class="icon"><span>English</span></button>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+
+        <div class="right  radius bg-grey m1">
+            <div class="header ">
+                <div class="nav">
+                    <img src="images/hamburger.svg" class="hamburger invert" alt="">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M15 6C15 6 9.00001 10.4189 9 12C8.99999 13.5812 15 18 15 18" stroke="#fff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" color="#000000"
+                        fill="none">
+                        <path d="M9.00005 6C9.00005 6 15 10.4189 15 12C15 13.5812 9 18 9 18" stroke="#fff"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                    </svg>
+                </div>
+                <div class="buttons ">
+                    <button class="btn">Sign up</button>
+                    <button class="btn">Log in</button>
+                </div>
+            </div>
+            <div class="main">
+                <div class="spotifyPlaylist">
+                    <h1>Spotify Playlist</h1>
+                    <div class="cardContainer">
+
+                    </div>
+                </div>
+            </div>
+            <div class="playbar radius ">
+                <div class="abovebar">
+                    <div class="songname"></div>
+                    <div class="playbar-in">
+                        <img id="previous" src="images/priveous.svg" alt="">
+                        <img id="play" src="images/play.svg" alt="">
+                        <img id="next" src="images/next.svg" alt="">
+                    </div>
+                    <div class="timevol">
+                        <div class="duration"></div>
+                        <div class="volume">
+                            <img style="width: 25px;" src="images/volume.svg" alt="">
+                            <div class="range">
+                                <input type="range" name="volume">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="seekbar">
+                    <div class="circle"></div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
