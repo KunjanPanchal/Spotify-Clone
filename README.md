@@ -6,7 +6,8 @@ This clone is fully responsive in all the devices
 
 # Responsiveness
 
-https://github.com/KunjanPanchal/Spotify-Clone/assets/157042147/3d9909f2-e7f2-44df-80e1-4b82ec7fdb964b82ec7fdb96
+[https://github.com/KunjanPanchal/Spotify-Clone/assets/157042147/3d9909f2-e7f2-44df-80e1-4b82ec7fdb964b82ec7fdb96](https://github.com/KunjanPanchal/Spotify-Clone/assets/157042147/c40f605a-f8eb-4065-bed4-f578d51476db
+)
 
 
 
