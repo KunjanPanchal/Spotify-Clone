@@ -1,6 +1,6 @@
 # Spotify-Clone
 
-##deployed project | you can try 
+## deployed project | you can try 
 https://kunjanspotify.freewebhostmost.com/
 
 This clone is fully responsive in all the devices  
