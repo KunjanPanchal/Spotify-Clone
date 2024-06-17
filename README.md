@@ -1,9 +1,9 @@
 # Spotify-Clone
 This clone is fully responsive in all the devices  
 ## Tech Stck
-# HTML
-# CSS
-# JavaScript
+### HTML
+### CSS
+### JavaScript
 
 
 
